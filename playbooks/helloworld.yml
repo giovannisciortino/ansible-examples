@@ -1,0 +1,6 @@
+- hosts: localhost
+  gather_facts: no
+  tasks:
+    - command: ansible --version
+      register: ansible_version_output
+    - debug: var=ansible_version_output

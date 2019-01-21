@@ -1,0 +1,3 @@
+- src: zaiste.essentials
+- src: zaiste.nginx
+- src: geerlingguy.java
